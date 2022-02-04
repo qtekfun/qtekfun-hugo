@@ -9,5 +9,3 @@ Para los que queráis conocer algo más sobre mí soy un desarrollador de softwa
 Mi día a día se pasa entre microservicios de C++. y Go aunque a veces también jugueteo con python según se necesite.
 
 Me puedes contactar en mi [linkedin](https://www.linkedin.com/in/cmorenomateos/) si quieres saber más de mi.
-
-[Software]({{< ref "/software/" >}} "Software")
