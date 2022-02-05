@@ -8,11 +8,11 @@ Si tienes un Mac y quieres ver la resolución real de la pantalla que estás uti
 Pasos para ver la resolución de pantalla en Mac
 
 1. Abrir terminal
-2. Podemos buscar «terminal» en el Launchpad o abrir Spotloght con CMD + Espacio y buscar Terminal
-3. Introducir el siguiente comando
+    Podemos buscar «terminal» en el Launchpad o abrir Spotloght con CMD + Espacio y buscar Terminal
+2. Introducir el siguiente comando
 
     `system_profiler SPDisplaysDataType | grep Resolution`
 
-4. resolucion pantalla mac
+{{< figure src="/software/resolucion-mac/resolucion-pantalla-mac.png" title="Resolución Pantalla Mac" >}}
 
 Y listo, el resultado debe de ser como el de la foto anterior. También funciona con un monitor externo conectado.
