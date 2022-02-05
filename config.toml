@@ -1,4 +1,4 @@
-baseURL = 'http://qtekfun.netlify.com/'
+baseURL = 'https://qtekfun.netlify.com/'
 languageCode = 'en-us'
 title = 'Qtekfun Site'
 theme = "ananke"
