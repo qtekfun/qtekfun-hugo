@@ -1,4 +1,33 @@
+#
+#  Basic Web Config
+#
 baseURL = 'https://qtekfun.netlify.com/'
 languageCode = 'en-us'
 title = 'Qtekfun Site'
 theme = "ananke"
+#
+# Aditional Config
+#
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "es" # Default languaje content
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = false
+[sitemap]
+  changefreq = "weekly" # Frecuency of recreation
+  priority = 0.5
+  filename = "sitemap.xml" # Path of sitemap
+[params]
+  favicon = "" # TODO
+  description = "Mis movidas"
+  #facebook = ""
+  twitter = "https://twitter.com/qtekfun"
+  instagram = "https://www.instagram.com/qtekfun/"
+  youtube = "https://www.youtube.com/mrmovilianoo"
+  github = "https://github.com/qtekfun/"
+  linkedin = "https://www.linkedin.com/in/cmorenomateos/"
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-white"
+  #featured_image = "/static/me.jpg"
+  recent_posts_number = 2
