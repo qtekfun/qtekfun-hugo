@@ -28,6 +28,6 @@ enableRobotsTXT = false
   github = "https://github.com/qtekfun/"
   linkedin = "https://www.linkedin.com/in/cmorenomateos/"
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-white"
+  background_color_class = "bg-black"
   #featured_image = "/static/me.jpg"
   recent_posts_number = 2
