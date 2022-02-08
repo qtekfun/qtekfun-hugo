@@ -1,0 +1,20 @@
+<header class="z-depth-2 navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar">
+    <a class="navbar-brand mr-0 mr-md-2" href="{{ .Site.BaseURL }}/" aria-label="Mr.Blue">
+        <span>{{ .Site.Title }}</span>
+    </a>
+    <div class="navbar-nav-scroll">
+        <ul class="navbar-nav bd-navbar-nav flex-row">
+        {{ range .Site.Menus.main }}
+            {{ if eq $.Kind "home" }}
+                {{ $.Scratch.Set "active" ($.IsMenuCurrent "main" .) }}
+            {{ else }}
+                {{ $.Scratch.Set "active" (eq .Identifier $.Type) }}
+            {{ end }}
+            {{ $active := $.Scratch.Get "active" }}
+            <li class="px-1 nav-item {{ if $active }}active{{end}}">
+                <a class="nav-link" href="{{ .URL | absLangURL  }}">{{ .Pre  }}<span>{{ .Name  }}</span></a>
+            </li>
+        {{ end  }}
+        </ul>
+    </div>
+</header>

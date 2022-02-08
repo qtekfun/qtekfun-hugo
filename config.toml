@@ -72,3 +72,16 @@ disablePathToLower = true
   section = ["HTML"]
   taxonomy = ["HTML"]
   term = ["HTML", "ATOM"]
+
+[menu]
+  [[menu.main]]
+      name = "Software"
+      pre = "<i class='fa fa-heart'></i>"
+      weight = -110
+      identifier = "Software"
+      url = "/posts/software/"
+  [[menu.main]]
+      name = "Android"
+      pre = "<i class='fa fa-road'></i>"
+      weight = -100
+      url = "/posts/android/"
