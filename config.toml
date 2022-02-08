@@ -4,10 +4,10 @@
 baseURL = 'https://qtekfun.netlify.com/'
 languageCode = 'en-us'
 title = 'Qtekfun Site'
-theme = "ananke"
-#
-# Aditional Config
-#
+theme = "hugo-geekblog"
+
+pluralizeListTitles = false
+
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "es" # Default languaje content
 SectionPagesMenu = "main"
@@ -18,6 +18,7 @@ enableRobotsTXT = false
   changefreq = "weekly" # Frecuency of recreation
   priority = 0.5
   filename = "sitemap.xml" # Path of sitemap
+
 [params]
   favicon = "" # TODO
   description = "Mis movidas"
@@ -31,3 +32,42 @@ enableRobotsTXT = false
   background_color_class = "bg-black"
   #featured_image = "/static/me.jpg"
   recent_posts_number = 2
+
+# Geekblog required configuration
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+disablePathToLower = true
+
+# Needed for mermaid shortcodes
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 9
+
+[taxonomies]
+  author = "authors"
+  tag = "tags"
+
+[mediaTypes]
+  [mediaTypes."application/atom+xml"]
+    suffixes = ["xml"]
+
+[outputFormats]
+  [outputFormats.Atom]
+    name = "Atom"
+    mediaType = "application/atom+xml"
+    baseName = "feed"
+    isPlainText = false
+    rel = "alternate"
+    isHTML = false
+    noUgly = true
+    permalinkable = false
+
+[outputs]
+  home = ["HTML", "ATOM"]
+  page = ["HTML"]
+  section = ["HTML"]
+  taxonomy = ["HTML"]
+  term = ["HTML", "ATOM"]
