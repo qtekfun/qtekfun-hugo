@@ -20,7 +20,8 @@ enableRobotsTXT = false
   filename = "sitemap.xml" # Path of sitemap
 
 [params]
-  favicon = "" # TODO
+  #favicon = "" # TODO
+  subtitle = "Mis movidas"
   description = "Mis movidas"
   #facebook = ""
   twitter = "https://twitter.com/qtekfun"
