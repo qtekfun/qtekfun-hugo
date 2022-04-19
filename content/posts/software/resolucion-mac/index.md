@@ -13,6 +13,6 @@ Pasos para ver la resolución de pantalla en Mac
 
     `system_profiler SPDisplaysDataType | grep Resolution`
 
-{{< figure src="/software/resolucion-mac/resolucion-pantalla-mac.png" title="Resolución Pantalla Mac" >}}
+{{< figure src="./resolucion-pantalla-mac.png" title="Resolución Pantalla Mac" >}}
 
 Y listo, el resultado debe de ser como el de la foto anterior. También funciona con un monitor externo conectado.
