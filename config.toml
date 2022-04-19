@@ -85,3 +85,8 @@ disablePathToLower = true
       pre = "<i class='fa fa-road'></i>"
       weight = -100
       url = "/posts/android/"
+  [[menu.main]]
+      name = "Notes"
+      pre = "<i class='fa fa-road'></i>"
+      weight = -100
+      url = "/posts/notes/"
