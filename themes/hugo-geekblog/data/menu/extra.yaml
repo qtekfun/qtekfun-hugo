@@ -1,6 +1,19 @@
 ---
 header:
+  - name: Android
+    ref: "/posts/android/"
+    external: false
+
+  - name: Software
+    ref: "/posts/software/"
+    external: false
+
+  - name: Notes
+    ref: "/posts/notes/"
+    external: false
+
   - name: Github Profile
     icon: gblog_github
     ref: "https://github.com/qtekfun"
     external: true
+    
