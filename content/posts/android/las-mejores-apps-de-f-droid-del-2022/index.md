@@ -1,7 +1,7 @@
 ---
 title: "Las Mejores Apps De F Droid Del 2022"
 date: 2022-02-08T21:36:29+01:00
-draft: false
+draft: true
 ---
 Si estas leyendo este post o te interesan las buenas apps gratis, o te preocupa tu privacidad. Sea como sea, hay aplicaciones para Android seguras más allá de la Play Store de Android y aquí te traigo las que yo suelo usar. Cada una con un claro propósito, con un significado.
 
