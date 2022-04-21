@@ -8,6 +8,10 @@ header:
     ref: "/posts/software/"
     external: false
 
+  - name: SEO
+    ref: "/posts/seo/"
+    external: false
+
   - name: Notes
     ref: "/posts/notes/"
     external: false
