@@ -13,7 +13,8 @@ DefaultContentLanguage = "es" # Default languaje content
 SectionPagesMenu = "main"
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
-enableRobotsTXT = false
+enableRobotsTXT = true
+
 [sitemap]
   changefreq = "weekly" # Frecuency of recreation
   priority = 0.5
