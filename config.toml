@@ -1,7 +1,7 @@
 #
 #  Basic Web Config
 #
-baseURL = 'https://qtekfun.netlify.com/'
+baseURL = 'https://qtekfun.com/'
 languageCode = 'en-us'
 title = 'Qtekfun Site'
 theme = "hugo-geekblog"
