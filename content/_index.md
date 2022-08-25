@@ -2,7 +2,6 @@
 date: 2022-02-04T13:23:17+01:00
 draft: false
 ---
-{{< figure src="me.jpg" title="That's me" width="100%">}}
 
 Este es mi blog. Me llamo Cipri. En las redes me hago llamar Qtekfun. Esta web pretendo que sea un cuaderno de notas público del que te puedas aprovechar. ¡Qué la disfrutes!
 
