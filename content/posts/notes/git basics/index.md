@@ -3,7 +3,17 @@ title: "Git Basics"
 date: 2022-04-19T21:13:25+01:00
 draft: false
 ---
-Aqui documento los básicos que hago cuando me configuro git. Seguiré documentando ...
+Cada vez que me reconfiguro un ordenador voy añadiendo nuevos alias de git que voy cogiendo con la experiencía como desarrollador. En este artículo documento los básicos que hago cuando me configuro git. 
+
+## ¿Como saber qué alias tengo configurados en git?
+Esta es una pregunta que alguna vez me he hecho y hoy he solucionado. Y el comando es:
+
+`git config --get-regexp alias`
+
+Pero realmente, creo que tendria que ser una característica de git, igual que cuando haces un `alias` en unix y te lista los alias del perfil del usuario. Por ello, en el siguiente punto, lo teneis definido.
+De esa manera al escribir un `git alias` os listará los alias.
+
+## Mis alias imprescindibles de git
 
 ```
 git config --global user.email "you@example.com"
@@ -15,8 +25,11 @@ git config --global alias.ci commit
 git config --global alias.st status
 git config --global alias.unstage 'reset HEAD --'
 git config --global alias.last 'log -1 HEAD'
+git config --global alias.alias 'git config --get-regexp alias'
 ```
 
 ## Mejor curso gratis para aprender Git en 2022 {#h-mejor-curso-gratis-para-aprender-git-en-2022}
 
 De lo que mejor he visto, esta página gratuita e interactiva será lo mejor que puedes hacer para aprender Git: <a href="https://learngitbranching.js.org/" target="_blank" rel="noreferrer noopener">Learn Git Branching</a>
+
+No obstante, seguiré documentando ...
