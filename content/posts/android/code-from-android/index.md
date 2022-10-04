@@ -11,11 +11,11 @@ Para esto, en resumen necesito dos elementos: una terminal donde poder manejar l
 
 Lo más facil es usar un git en entorno unix de toda la vida. Para ello, solo hay una app posible. Esa es [Termux](https://f-droid.org/en/packages/com.termux/). Esta app ejecuta, basandose en proot, un linux. Además, desde las ultimas versiones, podemos usar apt como gestor de paquetes, por lo que para instalar git:
 
-ˋapt install gitˋ
+`apt install git`
 
 Y como querremos clonar repos de Github, no está de más:
 
-ˋapt install opensshˋ
+`apt install openssh`
 
 ## IDEs de programación en Android
 En el apartado de IDEs, la verdad es que no hay mucha variedad pero recientemente he encontrado un par de alternativas que merecen la pena.
@@ -30,7 +30,7 @@ Otra de las posibilidades es *Squircle IDE*. Es un idea también muy parecido al
 
 La tercera de las opciones es intallar vim o neovim dentro de Termux, cosa que también he hecho por si las moscas. Para ello, basta con usar el siguiente comando:
 
-ˋapt install neovimˋ
+`apt install neovim`
 
 ¡Y listo! esto es todo lo que os puedo contar hasta el momento. Si acaso lo probais, me gustaría leeros.
 Y si sois usuarios de git, mi [lista de comandos y alias de git](https://qtekfun.com/posts/notes/git-basics/) os puede ser de utilidad.
