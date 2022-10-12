@@ -1,7 +1,7 @@
 ---
 title: FileVersionInfo y StringFileInfo
 date: 2020-11-20T11:24:09+00:00
-draft: true
+draft: false
 ---
 Cuando tenemos un proyecto de C++ en Visual Studio, existe un montón de información acerca del ejecutable que se incluye en él cómo es la versión del fichero y otra serie de parámetros que podemos necesitar en código.
 
