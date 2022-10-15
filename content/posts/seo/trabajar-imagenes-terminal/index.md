@@ -43,5 +43,13 @@ convert image1.webp -rotate 90 image1-rotated.webp
 
 donde el 90 son el número de grados que queremos girarla. Si esta en vertical, lo normal es que sea 90 o 270.
 
+## ¿Cómo redimensionar una imágen?
+
+Pues también con Imagemagick tenemos la solución. suponiendo la misma imagen que antes, basta con que usemos:
+
+```
+convert image1-rotated.webp -resize 1280x720 image1-rotated-resized.webp
+```
+
 Y con estos trucos, os manejareis como pez en la terminal. ¡Espero os sea de ayuda!
 
