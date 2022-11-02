@@ -51,5 +51,11 @@ Pues también con Imagemagick tenemos la solución. suponiendo la misma imagen q
 convert image1-rotated.webp -resize 1280x720 image1-rotated-resized.webp
 ```
 
+> BONUS: con este snippet redimensionais todas las imágenes del directorio:
+> ```
+> for file in *.webp; 
+> do convert $file -resize 1280x720 $file ; done
+> ```
+
 Y con estos trucos, os manejareis como pez en la terminal. ¡Espero os sea de ayuda!
 
