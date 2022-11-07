@@ -10,7 +10,11 @@ Este post es una nota a mi yo futuro. Cada vez que estreno y formateo un nuevo p
 Aquí algunas de las cosas que uso:
 
 ```
-sudo apt install terminator vim git build-essential nextcloud-desktop net-tools unzip virtualbox wireguard ca-certificates curl android-sdk-platform-tools android-sdk-platform-tools-common dnsutils imagemagick meld
+sudo apt install terminator vim git build-essential \
+nextcloud-desktop net-tools unzip virtualbox wireguard \
+ca-certificates curl android-sdk-platform-tools \
+android-sdk-platform-tools-common dnsutils imagemagick \
+meld
 ```
 
 ## Instalando Snaps
