@@ -14,7 +14,7 @@ sudo apt install terminator vim git build-essential \
 nextcloud-desktop net-tools unzip virtualbox wireguard \
 ca-certificates curl android-sdk-platform-tools \
 android-sdk-platform-tools-common dnsutils imagemagick \
-meld gparted
+meld gparted ffmpeg python3-pip
 ```
 
 ## Instalando Snaps
