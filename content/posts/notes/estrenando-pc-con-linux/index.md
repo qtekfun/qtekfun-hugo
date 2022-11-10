@@ -14,13 +14,15 @@ sudo apt install terminator vim git build-essential \
 nextcloud-desktop net-tools unzip virtualbox wireguard \
 ca-certificates curl android-sdk-platform-tools \
 android-sdk-platform-tools-common dnsutils imagemagick \
-meld gparted ffmpeg python3-pip
+meld gparted ffmpeg python3-pip libreoffice webp thunderbird \
+exfatprogs
 ```
 
 ## Instalando Snaps
 Y aqui instalando algunos snaps:
 ```
-sudo snap install spotify bitwarden code
+sudo snap install spotify bitwarden
+sudo snap install --classic code
 ```
 
 ## Enable and configure UFW
