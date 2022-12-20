@@ -12,16 +12,17 @@ Aquí algunas de las cosas que uso:
 ```
 sudo apt install terminator vim git build-essential \
 nextcloud-desktop net-tools unzip virtualbox wireguard \
-ca-certificates curl android-sdk-platform-tools \
+ca-certificates curl android-sdk-platform-tools \thunderbird
 android-sdk-platform-tools-common dnsutils imagemagick \
 meld gparted ffmpeg python3-pip libreoffice webp thunderbird \
-exfatprogs
+exfatprogs gtkpod clementine virtualbox-guest-additions-iso \
+wireshark chkrootkit
 ```
 
 ## Instalando Snaps
 Y aqui instalando algunos snaps:
 ```
-sudo snap install spotify bitwarden
+sudo snap install spotify bitwarden telegram-desktop
 sudo snap install --classic code
 ```
 
